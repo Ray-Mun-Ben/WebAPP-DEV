@@ -1,0 +1,16 @@
+
+.MadList{
+	display: inline;
+}
+.MadList{
+	list-style-type: none;
+}
+
+.linky:hover{
+	background: black;
+}
+.linky{
+	text-decoration: none;
+	color: black;
+	font-size: large;
+}

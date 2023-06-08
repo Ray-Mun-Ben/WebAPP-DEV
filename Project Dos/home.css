@@ -1,0 +1,77 @@
+								/*Element Selector:h1,p,etc
+								/*Types of selectors?
+								#
+								*(universal)
+								.
+
+								h1 {
+									text-align: right;
+								} 
+/*Id selector for first paragraph*/
+h1 {
+									text-align: center;
+									font-size: 80px;
+									font-family: Roboto;
+								} 
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap');
+#par1{
+	color: red;
+	font-size: 90px;
+	font-family: 'Roboto', sans-serif;
+	border-width: 20px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+
+}
+/*Add format*/
+.addFormat{
+	text-decoration: overline;
+}
+.center{
+	text-align: center;
+}
+*{
+	background-color: blueviolet;
+}
+*{
+	background-color: rgb(234, 45, 122);
+}
+
+/*grouping selector*/
+h1,p{
+
+}
+
+/*Attribte selctor*/
+[type="text"]{
+	color: red;
+}
+
+.toplinks{
+	text-decoration: overline;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.toplinks:hover{
+	color: yellow;
+	font-size: 50px;
+}
+.toplinks:visited{
+color: white;
+}
+.toplinks:active{
+color: blueviolet;
+}
+.topbar{
+	float: ;
+}

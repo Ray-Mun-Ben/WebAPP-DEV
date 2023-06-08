@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+.SignUp{
+	background:  #309D1C ;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #DED45E ;
+
+}
+/*selecting specific elements based on their attributes*/
+/*the selections below are working on the forms*/
+input[type="text"],
+input[type="email"],
+input[type="password"], 
+select{
+	width: 100%;
+	padding: 10px 15px;
+	color: black;
+	border-radius: 10px;
+	border: 10px solid black;
+}                                   /*margin vs padding ?*/
+[type="submit"]{
+	width: 100%;
+	padding:10px 15px;
+	background-color: #DED45E;
+	color: black;
+	border-radius: 10px;
+	border: 10px solid darkred;
+
+}
+[type="submit"]:hover{
+	opacity: 0.5;
+}
+	[type="submit"]:active{
+	color: red;
+}
+
+
+body {
+ background-image: url("Mokey.jpg"); 
+}
+
+
+.toplists{
+list-style-type: none; /* this removes the bullets from the list */
+background-color: #DED45E; /*the lists serve as block elements so they take up the entire row that they are in */
+padding:10px 15px;
+border-radius: 10px;
+border: 10px solid darkred;
+margin: 0px;
+font-size: large;
+
+}
+
+li{
+	display: inline;
+	} /* this makes them take up a single horizontal space */
+	                /*OR?  float: left;*/
+
+
+.toplinks{
+ text-decoration: none ;
+ color: white;
+ padding: 5px 20px; /* the first unit is for top and bottom of the element and the second units are for the left and right*/
+ overflow: hidden; /* this stops the hover effect from going past thehorizontal space of the element, or simply hides it so that it cant be seen*/
+ font-size: larger;
+}
+.toplinks:hover{
+	background-color: black;
+}
+.active{
+	background-color: whitesmoke;
+	color: black;
+}
